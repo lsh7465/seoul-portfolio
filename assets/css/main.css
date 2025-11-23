@@ -71,7 +71,7 @@
   border-radius: 50%;
 }
 .banner-area .ic-nav::after {
-  background-image: url(/assets/images/sp05.png);
+  background-image: url(../images/sp05.png);
   background-repeat: no-repeat;
   background-position: 0px 0px;
   content: "";
@@ -80,7 +80,7 @@
   display: block;
 }
 .banner-area .ic-nav.citizen::after {
-  background-image: url(/assets/images/sp05.png);
+  background-image: url(../images/sp05.png);
   background-repeat: no-repeat;
   background-position: -50px 0px;
   content: "";
@@ -168,12 +168,12 @@
   text-indent: -9999px;
 }
 .banner-area .swiper-btn-prev {
-  background-image: url(/assets/images/sp01_2.png);
+  background-image: url(../images/sp01_2.png);
   background-position: -241px -285px;
   left: 49px;
 }
 .banner-area .swiper-btn-next {
-  background-image: url(/assets/images/sp01_2.png);
+  background-image: url(../images/sp01_2.png);
   background-position: -256px -285px;
   right: 2px;
 }
@@ -189,11 +189,11 @@
 }
 
 .banner-area .btn-pause {
-  background-image: url("/assets/images/sp01_2.png");
+  background-image: url("../images/sp01_2.png");
   background-position: -285px -285px;
 }
 .banner-area .btn-play {
-  background-image: url("/assets/images/sp01_2.png");
+  background-image: url("../images/sp01_2.png");
   background-position: -269px -285px;
   display: none;
 }
@@ -284,7 +284,7 @@
   display: block;
   width: 12px;
   height: 12px;
-  background-image: url(/assets/images/ic_show_all.png);
+  background-image: url(../images/ic_show_all.png);
   content: "";
   background-repeat: no-repeat;
   display: block;
@@ -327,7 +327,7 @@
   position: relative;
 }
 .banner-area .banner-right .sc-banner:nth-child(2) .link2 {
-  background: url(/assets/images/news_02_1.png) no-repeat 0 0;
+  background: url(../images/news_02_1.png) no-repeat 0 0;
   display: block;
   width: 110px;
   height: 30px;
@@ -387,7 +387,7 @@
   justify-content: center;
 }
 .banner-area .show-all-wrap .inner2 {
-  background: url(/assets/images/title_bg.png) no-repeat 50% 0;
+  background: url(../images/title_bg.png) no-repeat 50% 0;
   padding: 100px 20px;
 }
 .banner-area .show-all-wrap .title-area h2 {
@@ -463,7 +463,7 @@
   font-size: 15px;
   padding-left: 13px;
   line-height: 28px;
-  background: url(/assets/images/ic_link.png) no-repeat right 13px top 50%;
+  background: url(../images/ic_link.png) no-repeat right 13px top 50%;
   margin-left: 23px;
 }
 .sc-major-service .ms-list {
@@ -606,7 +606,7 @@
   width: 22px;
   height: 20px;
   border: 1px solid #ddd;
-  background: url(/assets/images/sp01.png) no-repeat -1px -1px;
+  background: url(../images/sp01.png) no-repeat -1px -1px;
 }
 .content-area .sc-content .content-list {
   display: flex;
@@ -726,7 +726,7 @@
   position: absolute;
   content: "";
   display: block;
-  background: url(/assets/images/sp01.png) no-repeat 0 -259px;
+  background: url(../images/sp01.png) no-repeat 0 -259px;
   width: 75px;
   height: 75px;
   right: 0;
@@ -827,7 +827,7 @@
   width: 22px;
   height: 20px;
   border: 1px solid #ddd;
-  background: url(/assets/images/sp01.png) no-repeat -1px -1px;
+  background: url(../images/sp01.png) no-repeat -1px -1px;
 }
 .media-area .sc-seoulMedia .title-area span {
 }
@@ -897,7 +897,7 @@
   display: block;
   width: 36px;
   height: 36px;
-  background: url(/assets/images/sns_01.png) no-repeat 0 0;
+  background: url(../images/sns_01.png) no-repeat 0 0;
 }
 .sc-sns .group-title-sns span {
   color: #666;
@@ -917,7 +917,7 @@
   content: "";
   width: 11px;
   height: 11px;
-  background: url(/assets/images/sns_all.png) no-repeat 0 0;
+  background: url(../images/sns_all.png) no-repeat 0 0;
 }
 
 .sc-sns .group-link-sns {
@@ -1013,14 +1013,14 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url(/assets/images/sp01.png) no-repeat -45px -43px;
+  background: url(../images/sp01.png) no-repeat -45px -43px;
 }
 .sc-banner-slide .control-area .next::after {
   content: "";
   display: block;
   width: 20px;
   height: 20px;
-  background: url(/assets/images/sp01.png) no-repeat -86px -43px;
+  background: url(../images/sp01.png) no-repeat -86px -43px;
 }
 
 .sc-banner-slide .control-area .player-wrap {
@@ -1030,14 +1030,14 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url(/assets/images/sp01.png) no-repeat -65px -43px;
+  background: url(../images/sp01.png) no-repeat -65px -43px;
 }
 .sc-banner-slide .control-area .play::after {
   content: "";
   display: block;
   width: 20px;
   height: 20px;
-  background: url(/assets/images/sp01.png) no-repeat -101px -43px;
+  background: url(../images/sp01.png) no-repeat -101px -43px;
 }
 
 .sc-related-menu {
