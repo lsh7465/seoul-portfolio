@@ -1,0 +1,68 @@
+.blind {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url("../fonts/NanumGothic-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url("../fonts/NanumGothic-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+/* #header .header-top .blind::before {
+  background: url(/assets/images/sp01.png);
+  background-repeat: no-repeat;
+} */
+
+.sc-major-service .ms-item .ic-public::before,
+.sc-major-service .ms-item .ic-answer::before,
+.sc-major-service .ms-item .ic-job::before,
+.sc-major-service .ms-item .ic-realestate::before,
+.sc-major-service .ms-item .ic-portal::before,
+.sc-major-service .ms-item .ic-welfare::before,
+.sc-major-service .ms-item .ic-house::before,
+.sc-major-service .ms-item .ic-young::before,
+.sc-major-service .ms-item .ic-mediahub::before,
+.sc-major-service .ms-item .ic-democracy::before,
+.sc-major-service .ms-item .ic-sll::before,
+.sc-major-service .ms-item .ic-council::before {
+  background-image: url(/assets/images/sp02.png);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+}
+
+.sc-sns .group-link-sns .sns-item .facebook::after,
+.sc-sns .group-link-sns .sns-item .instagram::after,
+.sc-sns .group-link-sns .sns-item .youtube::after,
+.sc-sns .group-link-sns .sns-item .twitter::after,
+.sc-sns .group-link-sns .sns-item .blog::after,
+.sc-sns .group-link-sns .sns-item .kakaopage::after,
+.sc-sns .group-link-sns .sns-item .kakaotalk::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(/assets/images/sp03.png) no-repeat 0 0;
+}
