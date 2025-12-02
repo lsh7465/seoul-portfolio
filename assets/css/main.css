@@ -301,13 +301,10 @@
   flex-direction: column;
   gap: 10px;
 }
-.banner-area .banner-right .sc-banner {
-}
-
-.banner-area .banner-right a:nth-child(1) {
+.banner-area .banner-right .news-link {
   position: relative;
 }
-.banner-area .banner-right a:nth-child(1) span {
+.banner-area .banner-right .news-title {
   position: absolute;
   text-align: center;
   bottom: 0;
@@ -323,6 +320,7 @@
   font-weight: 700;
   overflow: hidden;
 }
+
 .banner-area .banner-right .sc-banner:nth-child(2) {
   position: relative;
 }

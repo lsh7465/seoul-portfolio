@@ -94,7 +94,7 @@
                 </a>
               </h2>
               <div class="search-area">
-                <form action="" method="get" class="search-form">
+                <form action="." method="get" class="search-form">
                   <label for="search-input" class="blind">검색어 입력</label>
                   <input
                     type="text"
@@ -112,14 +112,18 @@
                   </button>
                   <button class="btn-search">
                     <span class="blind">검색</span>
-                    <img src="assets/images/ic-search.png" class="ic-search" />
+                    <img
+                      src="assets/images/ic-search.png"
+                      alt=""
+                      class="ic-search"
+                    />
                   </button>
                 </form>
               </div>
             </div>
             <div class="group-info">
               <div class="lang-select">
-                <span for="langSelect" class="blind">언어 선택</span>
+                <label for="langSelect" class="blind">언어 선택</label>
                 <select id="langSelect" class="select-lang">
                   <option value="en" selected>ENGLISH</option>
                   <option value="ja">日本語</option>
@@ -174,8 +178,9 @@
                 </a>
               </div>
               <div class="tab-con">
+                <h2 class="blind">메인 슬라이드</h2>
                 <section id="tab1" class="con on">
-                  <div class="blind">주요뉴스</div>
+                  <h3 class="blind">주요뉴스</h3>
                   <div class="swiper main-swiper">
                     <ul class="swiper-wrapper">
                       <li class="swiper-slide">
@@ -294,7 +299,7 @@
                   </div>
                 </section>
                 <section id="tab2" class="con">
-                  <div class="blind">시민참여</div>
+                  <h3 class="blind">시민참여</h3>
                   <div class="swiper main-swiper">
                     <ul class="swiper-wrapper">
                       <li class="swiper-slide">
@@ -606,43 +611,48 @@
               </div>
             </div>
             <div class="banner-right">
+              <h2 class="blind">메인 배너</h2>
               <div class="banner-wrap">
                 <section class="sc-banner">
-                  <a href="">
+                  <h3 class="blind">시정 뉴스</h3>
+                  <a href="" class="news-link">
                     <img src="assets/images/news_01.jpg" alt="" />
-                    <span>서울시, K-건축 세계화 나선다</span>
+                    <span class="news-title">서울시, K-건축 세계화 나선다</span>
                   </a>
                 </section>
                 <section class="sc-banner">
-                  <a href="">
+                  <div class="banner-card">
                     <span class="blind">서울특별시장 오세훈입니다.</span>
-                    <a href="" class="link2">
-                      <span class="blind">사장에게 바란다</span>
+
+                    <a href="" class="link-main">
+                      <img
+                        src="assets/images/news_02.png"
+                        alt="서울특별시장 오세훈"
+                      />
                     </a>
-                    <img src="assets/images/news_02.png" alt="" />
+                    <a href="" class="link2">
+                      <span class="blind">시장에게 바란다</span>
+                    </a>
+
                     <div class="link-area">
                       <a href="">공약(매니페스토)</a>
                       <a href="">정책제안</a>
                       <a href="">투표</a>
                       <a href="">설문조사</a>
                     </div>
-                  </a>
+                  </div>
                 </section>
                 <div class="inner-link">
                   <section class="sc-banner">
+                    <h3 class="blind">검색창에 서울 정책 아카이브로 검색</h3>
                     <a href="">
                       <img src="assets/images/news_03.png" alt="" />
-                      <span class="blind"
-                        >검색창에 서울 정책 아카이브로 검색</span
-                      >
                     </a>
                   </section>
                   <section class="sc-banner">
+                    <h3 class="blind">시정소식 문자알림서비스 신청/해지</h3>
                     <a href="">
                       <img src="assets/images/news_04.png" alt="" />
-                      <span class="blind"
-                        >시정소식 문자알림서비스 신청/해지</span
-                      >
                     </a>
                   </section>
                 </div>
@@ -1150,84 +1160,99 @@
             <div class="swiper banner-swiper">
               <ul class="banner-list swiper-wrapper">
                 <li class="banner-item swiper-slide">
-                  <a
-                    href=""
-                    alt="여름철 무더위 날려줄 도심 속 워터파크! 한강공원 수영장 물놀이장 6곳 개장"
-                  >
-                    <img src="assets/images/banner_slide_01.jpg" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_01.jpg"
+                      alt="여름철 무더위 날려줄 도심 속 워터파크! 한강공원 수영장 물놀이장 6곳 개장"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a href="" alt="회복과 성장의 마중물 민생회복 소비쿠폰">
-                    <img src="assets/images/banner_slide_02.jpg" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_02.jpg"
+                      alt="회복과 성장의 마중물 민생회복 소비쿠폰"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a
-                    href=""
-                    alt="2025년 1기 확정 부가가치세 신고·납부 안내 / 신고·납부기간 : 7.1.(화)～7.25.(금)"
-                  >
-                    <img src="assets/images/banner_slide_03.jpg" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_03.jpg"
+                      alt="2025년 1기 확정 부가가치세 신고·납부 안내 / 신고·납부기간 : 7.1.(화)～7.25.(금)"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a
-                    href=""
-                    alt="2025년도 제74회 서울특별시 문화상 수상후보자 추천공고"
-                  >
-                    <img src="assets/images/banner_slide_04.png" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_04.png"
+                      alt="2025년도 제74회 서울특별시 문화상 수상후보자 추천공고"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a href="" alt="10.29이태원참사 피해자 인정 신청 안내">
-                    <img src="assets/images/banner_slide_05.jpg" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_05.jpg"
+                      alt="10.29이태원참사 피해자 인정 신청 안내"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a href="" alt="서울시 재난안전정보를 한눈에 서울안전누리">
-                    <img src="assets/images/banner_slide_06.png" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_06.png"
+                      alt="서울시 재난안전정보를 한눈에 서울안전누리"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a
-                    href=""
-                    alt="국내체류 외국인 가사/육아 분야 활동 희망자 대모집"
-                  >
-                    <img src="assets/images/banner_slide_07.png" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_07.png"
+                      alt="국내체류 외국인 가사/육아 분야 활동 희망자 대모집"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a href="" alt="대한민국 국가상징 국민 통합과 자긍심의 상징">
-                    <img src="assets/images/banner_slide_08.jpg" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_08.jpg"
+                      alt="대한민국 국가상징 국민 통합과 자긍심의 상징"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a
-                    href=""
-                    alt="경찰청 유실물 종합관리시스템(LOST112) 배너 노출 요청"
-                  >
-                    <img src="assets/images/banner_slide_09.png" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_09.png"
+                      alt="경찰청 유실물 종합관리시스템(LOST112) 배너 노출 요청"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a href="" alt="찾아가는 여성 취업 상담버스 일자리 부르릉">
-                    <img src="assets/images/banner_slide_10.jpg" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_10.jpg"
+                      alt="찾아가는 여성 취업 상담버스 일자리 부르릉"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a
-                    href=""
-                    alt="범죄피해자 원스톱 솔루션 센터 하단 이미지 배너 신청"
-                  >
-                    <img src="assets/images/banner_slide_11.jpg" alt="" />
+                  <a href="">
+                    <img
+                      src="assets/images/banner_slide_11.jpg"
+                      alt="범죄피해자 원스톱 솔루션 센터 하단 이미지 배너 신청"
+                    />
                   </a>
                 </li>
                 <li class="banner-item swiper-slide">
-                  <a
-                    href="assets/images/banner_slide_09.png"
-                    alt="2025년 서울시 일자리센터 구인.구직 맞춤형 취업지원프로그램 신청안내"
-                  >
-                    <img src="assets/images/banner_slide_12.jpg" alt="" />
+                  <a href="assets/images/banner_slide_09.png">
+                    <img
+                      src="assets/images/banner_slide_12.jpg"
+                      alt="2025년 서울시 일자리센터 구인.구직 맞춤형 취업지원프로그램 신청안내"
+                    />
                   </a>
                 </li>
               </ul>
